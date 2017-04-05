@@ -1,5 +1,5 @@
 # FIXME multiple urls? authentication?
-set(GIT_REPO "http://hci-repo.iwr.uni-heidelberg.de/light-field/snoptimizer.git")
+set(GIT_REPO "git@hci-repo.iwr.uni-heidelberg.de:mgutsche/BRDF-SNOptimizer.git")
 
 
 
