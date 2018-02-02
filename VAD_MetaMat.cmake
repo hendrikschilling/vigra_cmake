@@ -3,7 +3,8 @@
 set(GIT_REPO "http://hci-repo.iwr.uni-heidelberg.de/light-field/metamat.git")
 
 function(vad_system)
-  vad_add_var(MetaMat_FOUND false)
+  vad_system_default(MetaMat)
+  message("METAMAT_INCLUDE_DIRS: " ${METAMAT_INCLUDE_DIRS})
 endfunction()
 
 
