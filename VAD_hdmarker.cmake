@@ -3,7 +3,9 @@
 set(GIT_REPO "http://hci-repo.iwr.uni-heidelberg.de/hsiedelm/hdmarker.git")
 
 function(vad_system)
-  vad_add_var(hdmarker_FOUND false)
+  vad_system_default(hdmarker)
+  message("hdmarker_FOUND: " ${hdmarker_FOUND})
+  message("HDMARKER_INCLUDE_DIRS: " ${HDMARKER_INCLUDE_DIRS})
 endfunction()
 
 function(vad_deps)

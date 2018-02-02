@@ -3,7 +3,7 @@
 set(GIT_REPO "http://hci-repo.iwr.uni-heidelberg.de/light-field/cliini.git")
 
 function(vad_system)
-  vad_add_var(cliini_FOUND false)
+  vad_system_default(cliini)
 endfunction()
 
 function(vad_live)

@@ -4,7 +4,7 @@ set(GIT_CLONE_OPTS "-b;ucalib_rework")
 
 
 function(vad_system)
-  vad_add_var(ucalib_FOUND false)
+  vad_system_default(clif)
 endfunction()
 
 function(vad_deps)

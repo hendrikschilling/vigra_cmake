@@ -3,7 +3,10 @@ set(GIT_REPO "http://hci-repo.iwr.uni-heidelberg.de/light-field/ucalib.git")
 
 
 function(vad_system)
-  vad_add_var(ucalib_FOUND false)
+  vad_system_default(ucalib)
+  message("ucalib_FOUND: " ${ucalib_FOUND})
+  message("UCALIB_INCLUDE_DIRS: " ${UCALIB_INCLUDE_DIRS})
+  message("UCALIB_LIBRARIES: " ${UCALIB_LIBRARIES})
 endfunction()
 
 function(vad_deps)
