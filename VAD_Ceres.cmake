@@ -68,7 +68,8 @@ function(vad_live)
   vad_add_var(MINIGLOG ON) #use miniglog
   vad_add_var(EIGENSPARSE ON)
   vad_add_var(BUILD_TESTING OFF)
-  vad_add_var(BUILD_SHARED_LIBS ON)
+  #should be used from env!
+  vad_add_var(BUILD_SHARED_LIBS OFF)
   
   # TODO default seems to point to checkout out dir in source?!?
   add_subdirectory("${VAD_EXTERNAL_ROOT}/Ceres" "${CMAKE_BINARY_DIR}/external/Ceres")
