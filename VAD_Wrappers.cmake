@@ -30,6 +30,7 @@ ceres_hack Ceres;
 ceres_hack3 Ceres;
 opencv_core OpenCV;
 opencv_imgproc OpenCV;
+opencv_ximgproc OpenCV;
 opencv_xfeatures2d OpenCV;
 opencv_features2d OpenCV;
 opencv_highgui OpenCV;

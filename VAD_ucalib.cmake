@@ -10,7 +10,7 @@ function(vad_system)
 endfunction()
 
 function(vad_deps)
-  message("CALLED VAD_DEPS for ucalib")
+  message("!!!!!!!!!!!!!1CALLED VAD_DEPS for ucalib")
   vad_autodep_pkg(hdmarker "ucalib")
   vad_autodep_pkg(Ceres "ucalib")
   vad_autodep_pkg(MetaMat "ucalib")
